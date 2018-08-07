@@ -1,0 +1,21 @@
+{
+  "name": "twitter-cli",
+  "version": "1.0.0",
+  "description": "A command line tool to see the latest tweets in your twitter feed",
+  "main": "twitter-server.js",
+  "scripts": {
+    "start": "node twitter-server.js",
+    "twitter": "node twitter-server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "twitter"
+  ],
+  "author": "Kim Schlesinger",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "twitter": "^1.7.1"
+  }
+}
